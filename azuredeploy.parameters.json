@@ -1,0 +1,33 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "newStorageAccountName": {
+      "value": "uniqueStorageAccountName"
+    },
+    "adminUsername": {
+      "value": ""
+    },
+    "adminPassword": {
+      "value": ""
+    },
+    "dnsNameForPublicIP": {
+      "value": "uniqueDnsNameForPublicIP"
+    },
+    "virtualNetworkName": {
+      "value": "wikijsVNET"
+    },
+    "vmSize": {
+      "value": "Standard_D1v2"
+    },
+    "vmName": {
+      "value": "wikijs"
+    },
+    "publicIPAddressName": {
+      "value": "wikijsPublicIP"
+    },
+    "nicName": {
+      "value": "wikijsNic"
+    }
+  }
+}
