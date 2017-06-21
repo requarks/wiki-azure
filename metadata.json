@@ -1,0 +1,7 @@
+{
+  "itemDisplayName": "Install Wiki.js on an Ubuntu VM using Custom Script Linux Extension",
+  "description": "This template deploys Wiki.js on an Ubuntu Virtual Machine. This template also deploys a Storage Account, Virtual Network, Public IP addresses and a Network Interface.",
+  "summary": "Install Wiki.js on an Ubuntu VM using Custom Script Linux Extension",
+  "githubUsername": "Requarks",
+  "dateUpdated": "2017-06-20"
+}
