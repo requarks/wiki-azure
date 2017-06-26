@@ -3,16 +3,31 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "newStorageAccountName": {
-      "type": "string"
+      "type": "string",
+      "defaultValue": "uniquestoragename",
+      "metadata": {
+        "description": "Name of the storage account to create"
+      }
     },
-    "dnsNameForPublicIP": {
-      "type": "string"
+    "DNSNameForPublicIP": {
+      "type": "string",
+      "defaultValue": "unique-dns-name",
+      "metadata": {
+        "description": "Username for the VM admin user"
+      }
     },
     "adminUserName": {
       "type": "string"
+      "defaultValue": "wiki",
+      "metadata": {
+        "description": "Username for the VM admin user"
+      }
     },
     "adminPassword": {
-      "type": "securestring"
+      "type": "securestring",
+      "metadata": {
+        "description": "Password for the VM admin user"
+      }
     },
     "imagePublisher": {
       "type": "string",
@@ -86,7 +101,7 @@
       "properties": {
         "publicIPAllocationMethod": "[variables('publicIPAddressType')]",
         "dnsSettings": {
-          "domainNameLabel": "[parameters('dnsNameForPublicIP')]"
+          "domainNameLabel": "[parameters('DNSNameForPublicIP')]"
         }
       }
     },
