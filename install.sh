@@ -30,3 +30,7 @@ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install nodejs
 
 # Install Wiki.js
+sudo mkdir -p /var/www/wiki
+cd /var/www/wiki
+npm install wiki.js@latest
+node wiki configure
