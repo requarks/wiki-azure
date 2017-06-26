@@ -17,7 +17,7 @@
       }
     },
     "adminUserName": {
-      "type": "string"
+      "type": "string",
       "defaultValue": "wiki",
       "metadata": {
         "description": "Username for the VM admin user"
