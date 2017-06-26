@@ -11,7 +11,7 @@
     "adminPassword": {
       "value": ""
     },
-    "DNSNameForPublicIP": {
+    "dnsNameForPublicIP": {
       "value": "uniqueDnsNameForPublicIP"
     },
     "virtualNetworkName": {
