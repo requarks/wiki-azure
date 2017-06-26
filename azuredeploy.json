@@ -37,7 +37,7 @@
     },
     "vmSize": {
       "type": "string",
-      "defaultValue": "Standard_D1v2"
+      "defaultValue": "Standard_D1_v2"
     },
     "publicIPAddressName": {
       "type": "string",
